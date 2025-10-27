@@ -22,4 +22,18 @@ document.addEventListener("copy", (event) => {
   event.clipboardData.setData("text/plain", "Copied from Nabil's website without permission. Visit nabilinfo.rf.gd 😊");
   alert("Copying content is not allowed. 😄");
 });
+```
+## Usage
+
+```bash
+# Clone the repository
+git clone https://github.com/nazrulislam1835/Anti-Copy-Webpage.git
+
+# Go inside the folder
+cd Anti-Copy-Webpage
+
+# Open the project
+start index.html        # Windows
+open index.html         # macOS
+xdg-open index.html     # Linux
 
