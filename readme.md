@@ -29,13 +29,3 @@ document.addEventListener("copy", (event) => {
 # Clone the repository
 git clone https://github.com/nazrulislam1835/Anti-Copy-Webpage.git
 ```
-
-# Go inside the folder
-cd Anti-Copy-Webpage
-
-# Open the project
-start index.html        # Windows
-open index.html         # macOS
-xdg-open index.html     # Linux
-
-
