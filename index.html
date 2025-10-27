@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anti Copy Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f3f3f3;
+      color: #222;
+      padding: 40px;
+      line-height: 1.7;
+    }
+    .content {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="content" id="mainContent">
+    <h2>My Original Article</h2>
+    <p>
+      This is a sample paragraph that contains original content.
+      You can read it, but if you try to copy it, you’ll get something else 😏.
+    </p>
+  </div>
+
+  <script>
+    // The fake text that will be copied instead of the real one
+    const fakeText = "Copied from Nabil's website without permission. Visit nabilinfo.rf.gd 😊";
+
+    // Listen for copy event
+    document.addEventListener("copy", (event) => {
+      event.preventDefault(); // stop normal copy
+      // Write your fake text into clipboard
+      event.clipboardData.setData("text/plain", fakeText);
+      alert("Copying content is not allowed. 😄");
+    });
+  </script>
+</body>
+</html>
