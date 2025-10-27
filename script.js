@@ -1,5 +1,5 @@
     // The fake text that will be copied instead of the real one
-    const fakeText = "Copied from Nabil's website without permission. Visit nabilinfo.rf.gd 😊";
+    const fakeText = "🖕";
 
     // Listen for copy event
     document.addEventListener("copy", (event) => {
