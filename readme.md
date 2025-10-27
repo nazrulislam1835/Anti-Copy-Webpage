@@ -6,6 +6,11 @@ When someone tries to copy your text, a **custom fake message** will be copied i
 ---
 
 ## ✨ Features
+[Live Preview](https://nazrulislam1835.github.io/Anti-Copy-Webpage/)
+
+---
+
+## ✨ Features
 - 🚫 Blocks normal copy (Ctrl + C / Right-click Copy)
 - 🧠 Copies custom text instead of the real content
 - 💬 Optional alert message when copy is attempted
@@ -29,3 +34,4 @@ document.addEventListener("copy", (event) => {
 # Clone the repository
 git clone https://github.com/nazrulislam1835/Anti-Copy-Webpage.git
 ```
+
