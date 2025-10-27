@@ -6,5 +6,5 @@
       event.preventDefault(); // stop normal copy
       // Write your fake text into clipboard
       event.clipboardData.setData("text/plain", fakeText);
-      alert("Copying content is not allowed. 😄");
+      alert("Content Copy Done. Go and paste anywhere. 😄");
     });
